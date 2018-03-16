@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rahul.kidscompleteschool.MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/lightOrange">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/ivDigit"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/digits" />
+            <ImageButton
+                android:id="@+id/ivAlphabet"
+                android:layout_width="wrap_content"
+                android:onClick="ivAlphabets"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/alphabets" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/ivVegetable"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:onClick="ivVegetables"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/vegetables" />
+
+            <ImageButton
+                android:id="@+id/ivFruit"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:onClick="ivFruits"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruits" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ivAnimal"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:onClick="ivAnimals"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/animals" />
+
+            <ImageButton
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                android:id="@+id/ivBird"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:onClick="ivBirds"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/birds" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/ivShape"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="ivShapes"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/shapes" />
+            <ImageButton
+                android:id="@+id/ivColor"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="ivColors"
+                android:layout_marginBottom="30dp"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/colors" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/ivRhymes"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:background="@color/lightOrange"
+                android:scaleType="fitXY"
+                android:onClick="ivRhymes"
+                android:layout_marginBottom="30dp"
+                app:srcCompat="@drawable/rhymes" />
+
+            <ImageButton
+                android:id="@+id/ivQuiz"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@color/lightOrange"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="30dp"
+                app:srcCompat="@drawable/quiz" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
